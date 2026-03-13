@@ -1,10 +1,18 @@
-            - name: Generate-README.md-snake
-  # You may pin to the exact commit or the version.
-  # uses: InvalidLenni/README.md@a89878f85b1cca8131c215dbfb4ad7bcdb6b9b9f
-  uses: InvalidLenni/README.md@Template
-  with:
-    # <USERNAME>
-    cellynwidyaparamita-maker: 
-    # <PATH OF THE GENERATED SVG FILE>
-    svg_out_path: 
-          
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: cellynwidyaparamita-maker
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
