@@ -6,3 +6,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 ![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+## 🐍 Snake Contribution
+
+![Snake animation](https://github.com/cellynwidyaparamita-maker/cellynwidyaparamita-maker/blob/output/github-contribution-grid-snake-dark.svg)
